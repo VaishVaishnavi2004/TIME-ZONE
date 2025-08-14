@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIME ZONE</title>
+</head>
+<body>
+
+ <!-- Navbar -->
+    <nav class="navbar">
+        <button onclick="showSection('clock-section')">Clock</button>
+        <button onclick="showSection('timer-section')">Timer</button>
+        <button onclick="showSection('stopwatch-section')">Stopwatch</button>
+    </nav>
+
+  <!-- clock-section -->
+   <div id="clock-section" class="section active">
+       <div class="container">
+          <div class="clock">
+              <div style="--clr:#ff3d58; --h:74px;" id="hour" class="hand"><i></i></div>
+              <div style="--clr:#00a6ff; --h:84px;" id="min" class="hand"><i></i></div>
+              <div style="--clr:#ffffff; --h:94px;" id="sec" class="hand"><i></i></div>
+
+              <span style="--i:1;"><b>1</b></span>
+              <span style="--i:2;"><b>2</b></span>
+              <span style="--i:3;"><b>3</b></span>
+              <span style="--i:4;"><b>4</b></span>
+              <span style="--i:5;"><b>5</b></span>
+              <span style="--i:6;"><b>6</b></span>
+              <span style="--i:7;"><b>7</b></span>
+              <span style="--i:8;"><b>8</b></span>
+              <span style="--i:9;"><b>9</b></span>
+              <span style="--i:10;"><b>10</b></span>
+              <span style="--i:11;"><b>11</b></span>
+              <span style="--i:12;"><b>12</b></span>
+          </div>
+          <div id="digital-time"></div>
+          <div id="date"></div>
+      </div>
+   </div>
+ 
+    <!-- Timer Section -->
+     <div id="timer-section"class="section">
+        <h3>⏳ Timer</h3>
+        <div class="display" id="timer-display">00:00</div>
+        <div class="controls">
+            <input type="number" id="timer-minutes" placeholder="Min">
+            <input type="number" id="timer-seconds" placeholder="Sec">
+            <button onclick="startTimer()">Start</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+
+      <!-- Stopwatch Section -->
+    <div id="stopwatch-section" class="section">
+        <h3>⏱️ Stopwatch</h3>
+        <div class="display" id="stopwatch-display">00:00:00</div>
+        <div class="controls">
+            <button onclick="startStopwatch()">Start</button>
+            <button onclick="stopStopwatch()">Stop</button>
+            <button onclick="resetStopwatch()">Reset</button>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
