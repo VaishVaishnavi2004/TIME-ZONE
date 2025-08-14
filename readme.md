@@ -41,7 +41,7 @@ The app is built with **HTML, CSS, and JavaScript** and has a modern, responsive
 
 
 ## 🚀 Live Demo
-[Click here to try the calculator](https://calculator-js-prteek.netlify.app/)
+[Click here to try the calculator](https://time-zone-vaish.netlify.app/)
 
 ---
 
