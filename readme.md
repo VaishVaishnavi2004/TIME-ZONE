@@ -41,14 +41,14 @@ The app is built with **HTML, CSS, and JavaScript** and has a modern, responsive
 
 
 ## 🚀 Live Demo
-[Click here to try the calculator](https://time-zone-vaish.netlify.app/)
+[Click here to try the TIME ZONE](https://time-zone-vaish.netlify.app/)
 
 ---
 
 ## 📷 Screenshot
-![Calculator Screenshot](clock.png)
-![Calculator Screenshot](stopwatch.png)
-![Calculator Screenshot](timer.png)
+![CLOCK Screenshot](clock.png)
+![STOPWATCH Screenshot](stopwatch.png)
+![TIMER Screenshot](timer.png)
 
 --- 
 ## ✨ Future Improvements
